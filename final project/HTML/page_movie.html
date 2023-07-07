@@ -1,0 +1,3283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="icon" href="/picture/video-player.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/CSS/page.css">
+    <title>Fmovie.to</title>
+</head>
+<body>
+
+    <div class="main-top">
+        <img src="/picture/banner2.jpg" alt="no image">
+        <div class="opacity-top">  
+            <div class="top1 d-flex ">
+                <div class="ch-tp1 d-flex justify-content-between">
+                    <div class="image"> 
+                        <img src="/picture/logo_Fmovie.png" alt="no image">
+                    </div>
+                    
+                    <div class="list">
+                        <ul class="d-flex justify-content-between">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Movie</a></li>
+                            <li><a href="">TV Shows</a></li>
+                            <li class="actives"><a href="">Genre</a>
+                                <div class="droplist">
+                                    <ul class="d-flex ">
+                                        <div class="line-drop">
+                                            <li><a id="cl" href="">Action</a></li>
+                                            <li><a id="cl" href="">Anime</a></li>
+                                            <li><a id="cl" href="">Comedy</a></li>
+                                            <li><a id="cl" href="">Drama</a></li>
+                                            <li><a id="cl" href="">History</a></li>
+                                            <li><a id="cl" href="">Mystery</a></li>
+                                            <li><a id="cl" href="">Sport</a></li>
+                                            <li><a id="cl" href="">Western</a></li>
+                                        </div>
+                                        <div class="line-drop">
+                                            <li><a id="cl" href="">Adventure</a></li>
+                                            <li><a id="cl" href="">Asian Dramas</a></li>
+                                            <li><a id="cl" href="">Crime</a></li>
+                                            <li><a id="cl" href="">Family</a></li>
+                                            <li><a id="cl" href="">Horror</a></li>
+                                            <li><a id="cl" href="">Romance</a></li>
+                                            <li><a id="cl" href="">Thriler</a></li>
+                                        </div>
+                                        <div class="line-drop">
+                                            <li><a id="cl" href="">Animation</a></li>
+                                            <li><a id="cl" href="">Biology</a></li>
+                                            <li><a id="cl" href="">Documentary</a></li>
+                                            <li><a id="cl" href="">Fantasy</a></li>
+                                            <li><a id="cl" href="">Music</a></li>
+                                            <li><a id="cl" href="">Sci-Fi</a></li>
+                                            <li><a id="cl" href="">War</a></li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="actives"><a  href="">Country</a>
+                                <div class="droplist d2">
+                                    <ul class="d-flex">
+                                        <div class="line-drop l2">
+                                            <li class="li"><a id="cl" href="">United States</a></li>
+                                            <li class="li"><a id="cl" href="">France</a></li>
+                                            <li class="li"><a id="cl" href="">Spain</a></li>
+                                            <li class="li"><a id="cl" href="">Hong Kong</a></li>
+                                            <li class="li"><a id="cl" href="">India</a></li>
+                                        </div>
+                                        <div class="line-drop  l2">
+                                            <li class="li"><a id="cl" href="">United Kingdom</a></li>
+                                            <li class="li"><a id="cl" href="">Euro</a></li>
+                                            <li class="li"><a id="cl" href="">Australia</a></li>
+                                            <li class="li"><a id="cl" href="">China</a></li>
+                                            <li class="li"><a id="cl" href="">Russia</a></li>
+                                        </div>
+                                        <div class="line-drop  l2">
+                                            <li class="li"><a id="cl" href="">Canada</a></li>
+                                            <li class="li"><a id="cl" href="">Japan</a></li>
+                                            <li class="li"><a id="cl" href="">International</a></li>
+                                            <li class="li"><a id="cl" href="">South Korea</a></li>
+                                            <li class="li"><a id="cl" href="">Thailand</a></li>
+                                        </div>
+                                    </ul>
+                                </div></li>
+                            <li class="actives"><a href="">Year</a>
+                                <div class="droplist d3">
+                                    <ul class="d-flex ">
+                                        <div class="line-drop l3">
+                                            <li class="li"><a id="cl" href="">2023</a></li>
+                                            <li class="li"><a  id="cl"href="">2020</a></li>
+                                            <li class="li"><a  id="cl"href="">2017 </a></li>
+                                            <li class="li"><a  id="cl"href="">2014</a></li>
+                                            <li class="li"><a  id="cl"href="">2011</a></li>
+                                            <li class="li"><a  id="cl"href="">2008</a></li>
+                                            <li class="li"><a  id="cl"href="">2005</a></li>
+                                            <li class="li"><a  id="cl"href="">2002</a></li>
+                                            <li class="li"><a  id="cl"href="">1990s</a></li>
+                                            <li class="li"><a  id="cl"href="">1960s</a></li>
+                                            <li class="li"><a  id="cl"href="">1930s</a></li>
+                                            <li class="li"><a  id="cl"href="">1900s</a></li>
+
+                                        </div>
+                                        <div class="line-drop l3">
+                                            <li class="li"> <a id="cl" href="">2022</a></li>
+                                            <li class="li"><a id="cl"href="">2019</a></li>
+                                            <li class="li"><a id="cl"href="">2016 </a></li>
+                                            <li class="li"><a id="cl"href="">2013</a></li>
+                                            <li class="li"><a id="cl"href="">2010</a></li>
+                                            <li class="li"><a id="cl"href="">2007</a></li>
+                                            <li class="li"><a id="cl"href="">2004</a></li>
+                                            <li class="li"><a id="cl"href="">2001</a></li>
+                                            <li class="li"><a id="cl"href="">1980s</a></li>
+                                            <li class="li"><a id="cl"href="">1950s</a></li>
+                                            <li class="li"><a id="cl"href="">1920s</a></li>
+                                        </div>
+                                        <div class="line-drop l3">
+                                            <li class="li"><a id="cl" href="">2021</a></li>
+                                            <li class="li"><a id="cl"href="">2018</a></li>
+                                            <li class="li"><a id="cl"href="">2015 </a></li>
+                                            <li class="li"><a id="cl"href="">2012</a></li>
+                                            <li class="li"><a id="cl"href="">2009</a></li>
+                                            <li class="li"><a id="cl"href="">2006</a></li>
+                                            <li class="li"><a id="cl"href="">2003</a></li>
+                                            <li class="li"><a id="cl"href="">2000</a></li>
+                                            <li class="li"><a id="cl"href="">1970s</a></li>
+                                            <li class="li"><a id="cl"href="">1940s</a></li>
+                                            <li class="li"><a id="cl"href="">1910s</a></li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ch-tp1 ch-tp2">
+                    <div id="menu" class="menu d-flex align-items-center" onclick="show1()">
+                        Sign in<i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="box-search">
+                        <label id="box-srch" class="d-flex" for="">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Search"> 
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <p class="tle1">Black Panter : Wakanda Forever</p>
+                <p class="time d-flex justify-content-between">
+                    <span id="b1" class="d-flex align-items-center justify-content-center">HD</span>
+                    <span>Duration: 162 min</span>
+                    <span>IMDB: 7.4</span>
+                    <span>Genre: Action, Advanture, Drama</span>
+                </p>
+                <p class="tle3">
+                    Queen Ramonda, Shuri, M'Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, 
+                    the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.
+                </p>
+                <button class="btn btn-group d-flex justify-content-center align-items-center ">
+                    <i class="fa-solid fa-play" style="margin-right: 5px;"></i>
+                    Watch now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <div id="b-menu">   
+        <div class="b-menu-box d-flex">
+            <div class="menu-box-img">
+                <img src="/picture/form-pic2.jpg" alt="">
+            </div>
+            <div class="menu-form">
+                <div class="top-form">
+                    <span ><i id="close" class="fa-solid fa-xmark"></i></span>
+                    <div class="choice d-flex justify-content-center ">
+                        <button id="sign-in" onclick="show1()">Sign Up</button>
+                        <button id="log-in" onclick="show2()">Log In</button>
+                    </div>
+                    
+                </div>
+                <div class="bottom-form">
+                    <div class="b-f-1 w-100 h-100 " >
+                        <p class="name-form-sig"></p>
+                        <div class="info-form">
+                            <div class="connect-app d-flex justify-content-center align-items-center">
+                                <img src="/picture/facebook.png" alt="No image">
+                                <img src="/picture/instagram.png" alt="No image">
+                                <img src="/picture/search.png" alt="No image">
+                            </div>
+                            <div class="form">
+                                <label for="" class="d-flex">
+                                    <input id="ipt" style="margin-right: 2px;" type="text" placeholder="First Name">
+                                    <input id="ipt" type="text" placeholder="Last Name">
+                                </label>
+                            </div>
+                            <div class="form">
+                                <label for="" >
+                                    <input id="ipt" type="email" placeholder="Email Address">
+                                </label>
+                            </div>
+                            <div class="form">
+                                <label for="">
+                                    <input id="ipt" type="password" placeholder="Password">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="get-start">
+                            <button id="signup">Sign Up</button>
+                        </div>
+                    </div>
+                    <div class="b-f-2 w-100 h-100 " >
+                        <p class="name-form-log"></p>
+                        <div class="info-form">
+                            <div class="form">
+                                <label for="">
+                                    <input id="ipt2" type="email" placeholder="Email Address">
+                                </label>
+                            </div>
+                            <div class="form">
+                                <label for="">
+                                    <input id="ipt2" class="pass" type="password" placeholder="Password" name="visual">
+                                    <i class="fa-solid fa-eye"></i>
+                                </label>
+                            </div>
+                            <div class="form ">
+                                <p>Or connect with <span style="color:aqua;text-decoration:underline; cursor:pointer;">social</span></p>
+                                <div class="connect-app d-flex justify-content-center align-items-center">
+                                    <img src="/picture/facebook.png" alt="No image">
+                                    <img src="/picture/instagram.png" alt="No image">
+                                    <img src="/picture/search.png" alt="No image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="get-start">
+                            <button id="login">Log In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Form -->
+
+    <!-- main -->
+    <main>
+        <div class="introduction">
+            <p>Are you tired of visiting sites that offer poor streaming 
+                services and want to find a site to watch movies online in 
+                HD for free? We understand your concerns and that is why we
+                 have come up with this amazing platform, fmovies to, where you 
+                 can watch as many movies as you want without running into any problems. 
+                 Our interface is user-friendly and everything on the site is well categorized so that visitors can easily find their favorite movies. We try our best to provide a satisfactory customer experience, and valuable feedback from visitors motivates us to keep moving forward. We offer complete transparency to our visitors as we don't want them to worry about any hidden fees. In addition, we do not fraudulently force visitors to pay us, and you can rely on us for the quality of our services. You never have to worry about someone tracking you while you are on fmovies to. What's more, we don't deal with untrustworthy third-party service providers, so you don't have to worry about being tricked by someone. You are here to watch your favorite movies and relax and 
+                this is what you get. Let's start watching Free Full HD Movies Online and Free TV Shows with FMoviesto</p>
+        </div>
+
+        <div class="swap">
+            <div class="t-v-movie">
+                <div class="title-mo d-flex align-items-center ">
+                    <p class="title">Trending<span></span></p>
+                    <span class="swp">
+                        <button class="movie"><i class="fa-sharp fa-solid fa-play"></i>Movie</button>
+                        <button class="tv-show"><i class="fa-solid fa-bars"></i>TV Show</button>
+                    </span>
+                </div>
+                <!-- Card1 -->
+                <div class="row card ">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m1.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Devil Conspiracy</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                111 min
+                                <span>Movie</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m2.download" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Man From Rome</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                116 min
+                                <span>Movie</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m3.jpg" alt="no image">
+                            <p>CAM</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Creed III</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                116 min
+                                <span>Movie</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m4.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Devil's Academy</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                88 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m5.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Bikini Hackers</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                90 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m6.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Darker Shades of Summer</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                80 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m7.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Her Affair to Die For</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                90 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m8.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Ambush</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                104 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--card2 -->
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m9.png" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Unwelcome</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                104 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m10.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Lagacy Peak</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                95 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m11.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">A Whole lifetime with Ja.. </p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                52 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m12.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Detroit Burning</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                93 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m13.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Tonight You're Sleeping..</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                93 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m14.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Drive to Murder</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                87 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m15.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">A Prince In aradise</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                90 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m16.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Outwaters</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                100 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card3 -->
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m17.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Missing</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                111 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m18.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Corsage</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                114 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m19.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Spoon of Sugar</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                94 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m20.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Killer next door</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                88 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m21.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Plam Tress and Power line</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                110 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m22.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Here love lies</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                131 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m23.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The weekend: Live at Sofi..</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                98 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m24.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Marlon Wayans: God lov...</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                60 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="t-v-movie">
+                <div class="title-mo d-flex align-items-center ">
+                    <p class="title">latest Movie<span></span></p>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m25.jpg" alt="no image">
+                            <p>CAM</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Donor Party</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                93 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m26.jpg" alt="no image">
+                            <p>CAM</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Hunt her, Kill her</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                98 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m28.jpg" alt="no image">
+                            <p>CAM</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">What We Do Next</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                77 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m29.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Dienfluencer</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                120 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m27.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Frontiers</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                111 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m17.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Missing</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                111 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m30.avif" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">She inherited danger</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                88 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m31.png" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">A Liitle White Lie</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                101 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m32.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Secret Dairy of a Chee..</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                85 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m33.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Black Girl Missing</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                90 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m21.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Plam trees and Power line</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                110 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m20.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Killer Next Door</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                88 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m24.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Marlon Wayans: God lo...</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                60 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m16.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Outwater</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                100 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m22.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Here Love lies</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                131 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m34.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Made for Each Other</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                84 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m35.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">I got the Monster</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                103 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m10.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Lagacy Peak</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                95 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m36.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Royal Rendezvous</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                90 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m37.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Children of Corn</p>
+                            <p  class="d-flex">
+                                2020
+                                &#8226;
+                                93 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m15.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">A Prince in Paradise</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                90 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m38.avif" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Paramedic Who...</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                87 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m8.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Ambush</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                104 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m13.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Tonight You're Sleeping..</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                93 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="t-v-movie">
+                <div class="title-mo d-flex align-items-center ">
+                    <p class="title">last TV Shows<span></span></p>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m39.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The last day of us</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP8
+                                <span>TV</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m40.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">History of the World, PartII</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                Ep2 
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m41.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Perry Mason Season2</p>
+                            <p  class="d-flex">
+                                SS2
+                                &#8226;
+                                EP1 
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m42.avif" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Rain Dogs Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                Ep1
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m43.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Shelved Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP1
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m44.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Big City greens Season3</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                EP31 
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m45.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Watchful eyes Sea..</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP7
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m46.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Way Home Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP7
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m47.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Fantasy Island Seas..</p>
+                            <p  class="d-flex">
+                                SS2
+                                &#8226;
+                                EP8
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m48.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Quantum Leap Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m49.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Good Doctor Seas...</p>
+                            <p  class="d-flex">
+                                SS6
+                                &#8226;
+                                EP15
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m50.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">991 Season6</p>
+                            <p  class="d-flex">
+                                SS6
+                                &#8226;
+                                EP10
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m51.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Django Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                Ep4
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m52.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Equalizer Season3</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                EP10
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m53.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Magnum P.I Season5</p>
+                            <p  class="d-flex">
+                                SS5
+                                &#8226;
+                                EP4
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m54.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Family Guy Season21</p>
+                            <p  class="d-flex">
+                                SSS21
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m55.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Great North Sea...</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m56.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Bob's Burger Season13</p>
+                            <p  class="d-flex">
+                                SS13
+                                &#8226;
+                                Ep14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m58.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">NICS: Los Angelas Sea..</p>
+                            <p  class="d-flex">
+                                SS14
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m59.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">East New York Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m60.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The last tonight with ..</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                Ep3
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m61.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Company You keep..</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP3
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m62.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Blacklist Season10</p>
+                            <p  class="d-flex">
+                                SS10
+                                &#8226;
+                                EP2
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m57.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Simspons Season..</p>
+                            <p  class="d-flex">
+                                SS34
+                                &#8226;
+                                EP15
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swap2">
+            <div class="t-v-movie">
+                <div class="title-mo d-flex align-items-center ">
+                    <p class="title">Trending<span></span></p>
+                    <span class="swp">
+                        <button class="movie"><i class="fa-sharp fa-solid fa-play"></i>Movie</button>
+                        <button class="tv-show"><i class="fa-solid fa-bars"></i>TV Show</button>
+                    </span>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m39.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The last day of us</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP8
+                                <span>TV</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m40.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">History of the World, PartII</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                Ep2 
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m41.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Perry Mason Season2</p>
+                            <p  class="d-flex">
+                                SS2
+                                &#8226;
+                                EP1 
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m42.avif" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Rain Dogs Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                Ep1
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m43.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Shelved Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP1
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m44.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Big City greens Season3</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                EP31 
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m45.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Watchful eyes Sea..</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP7
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m46.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Way Home Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP7
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m47.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Fantasy Island Seas..</p>
+                            <p  class="d-flex">
+                                SS2
+                                &#8226;
+                                EP8
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m48.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Quantum Leap Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m49.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Good Doctor Seas...</p>
+                            <p  class="d-flex">
+                                SS6
+                                &#8226;
+                                EP15
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m50.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">991 Season6</p>
+                            <p  class="d-flex">
+                                SS6
+                                &#8226;
+                                EP10
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m51.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Django Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                Ep4
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m52.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Equalizer Season3</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                EP10
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m53.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Magnum P.I Season5</p>
+                            <p  class="d-flex">
+                                SS5
+                                &#8226;
+                                EP4
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m54.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Family Guy Season21</p>
+                            <p  class="d-flex">
+                                SSS21
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m55.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Great North Sea...</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m56.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Bob's Burger Season13</p>
+                            <p  class="d-flex">
+                                SS13
+                                &#8226;
+                                Ep14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m58.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">NICS: Los Angelas Sea..</p>
+                            <p  class="d-flex">
+                                SS14
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m59.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">East New York Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m60.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The last tonight with ..</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                Ep3
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m61.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Company You keep..</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP3
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m62.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Blacklist Season10</p>
+                            <p  class="d-flex">
+                                SS10
+                                &#8226;
+                                EP2
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m57.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Simspons Season..</p>
+                            <p  class="d-flex">
+                                SS34
+                                &#8226;
+                                EP15
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="t-v-movie">
+                <div class="title-mo d-flex align-items-center ">
+                    <p class="title">latest Movie<span></span></p>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m25.jpg" alt="no image">
+                            <p>CAM</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Donor Party</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                93 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m26.jpg" alt="no image">
+                            <p>CAM</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Hunt her, Kill her</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                98 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m28.jpg" alt="no image">
+                            <p>CAM</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">What We Do Next</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                77 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m29.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Dienfluencer</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                120 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m27.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Frontiers</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                111 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m17.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Missing</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                111 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m30.avif" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">She inherited danger</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                88 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m31.png" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">A Liitle White Lie</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                101 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m32.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Secret Dairy of a Chee..</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                85 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m33.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Black Girl Missing</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                90 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m21.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Plam trees and Power line</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                110 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m20.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Killer Next Door</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                88 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m24.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Marlon Wayans: God lo...</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                60 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m16.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Outwater</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                100 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m22.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Here Love lies</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                131 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m34.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Made for Each Other</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                84 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m35.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">I got the Monster</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                103 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m10.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Lagacy Peak</p>
+                            <p  class="d-flex">
+                                2022
+                                &#8226;
+                                95 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m36.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Royal Rendezvous</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                90 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m37.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Children of Corn</p>
+                            <p  class="d-flex">
+                                2020
+                                &#8226;
+                                93 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m15.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">A Prince in Paradise</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                90 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m38.avif" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Paramedic Who...</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                87 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m8.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Ambush</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                104 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m13.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Tonight You're Sleeping..</p>
+                            <p  class="d-flex">
+                                2023
+                                &#8226;
+                                93 min
+                                <span>Movie</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="t-v-movie">
+                <div class="title-mo d-flex align-items-center ">
+                    <p class="title">last TV Shows<span></span></p>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m39.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The last day of us</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP8
+                                <span>TV</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m40.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">History of the World, PartII</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                Ep2 
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m41.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Perry Mason Season2</p>
+                            <p  class="d-flex">
+                                SS2
+                                &#8226;
+                                EP1 
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m42.avif" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Rain Dogs Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                Ep1
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m43.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Shelved Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP1
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m44.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Big City greens Season3</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                EP31 
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m45.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Watchful eyes Sea..</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP7
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m46.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Way Home Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP7
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m47.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Fantasy Island Seas..</p>
+                            <p  class="d-flex">
+                                SS2
+                                &#8226;
+                                EP8
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m48.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Quantum Leap Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m49.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Good Doctor Seas...</p>
+                            <p  class="d-flex">
+                                SS6
+                                &#8226;
+                                EP15
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m50.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">991 Season6</p>
+                            <p  class="d-flex">
+                                SS6
+                                &#8226;
+                                EP10
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m51.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Django Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                Ep4
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m52.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Equalizer Season3</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                EP10
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m53.webp" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Magnum P.I Season5</p>
+                            <p  class="d-flex">
+                                SS5
+                                &#8226;
+                                EP4
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m54.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Family Guy Season21</p>
+                            <p  class="d-flex">
+                                SSS21
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card row">
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m55.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Great North Sea...</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m56.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">Bob's Burger Season13</p>
+                            <p  class="d-flex">
+                                SS13
+                                &#8226;
+                                Ep14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m58.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">NICS: Los Angelas Sea..</p>
+                            <p  class="d-flex">
+                                SS14
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m59.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">East New York Season1</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP14
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m60.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The last tonight with ..</p>
+                            <p  class="d-flex">
+                                SS3
+                                &#8226;
+                                Ep3
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m61.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Company You keep..</p>
+                            <p  class="d-flex">
+                                SS1
+                                &#8226;
+                                EP3
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m62.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Blacklist Season10</p>
+                            <p  class="d-flex">
+                                SS10
+                                &#8226;
+                                EP2
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-mo col-8">
+                        <div class="image-mo">
+                            <img src="/picture/m57.jpg" alt="no image">
+                            <p>HD</p>
+                            <div class="img-opacity">
+                                <button id="button-play">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="name-mo">
+                            <p style="color:white; font-size:17px;">The Simspons Season..</p>
+                            <p  class="d-flex">
+                                SS34
+                                &#8226;
+                                EP15
+                                <span>TV</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="coming d-flex align-items-center">
+            <div class="title-mo  ">
+                <p class="title">Coming Soon<span></span></p>
+            </div>
+        </div>
+    </main>
+    <!-- main -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="conclusion d-flex">
+            <div class="left">
+                <div class="f-logo ">
+                    <img src="/picture/logo_Fmovie.png" alt="">
+                </div>
+                <p>FMovies is the best <span >free streaming site</span> 2022, where you can watch movies online for free, no registration required. With a large database and great features, we're confident that FMovies is 
+                    the best free online movie site in the space you just can't miss!</p>
+                <p id="con-twitter"><i class="fa-brands fa-twitter"></i> Connect with us on Twitter</p>
+                <p style="font-style: italic;">site does not store any files on our server, we only linked to the media which is hosted on 3rd party services.</p>
+            </div>
+            <div class="right">
+                <p>Link</p>
+                <div class="links d-flex">
+                    <div class="link-b  p-2">
+                        <li><a href="https://hd.fmoviesto.site/movies">Movie</a></li>
+                        <li><a href="https://hd.fmoviesto.site/tv-shows">TV-Show</a></li>
+                        <li><a href="https://hd.fmoviesto.site/movies?sort=12">Most Watched</a></li>
+                    </div>
+                    <div class="link-b p-2">
+                        <li><a href="https://fmoviesto.gg/">fmovies</a></li>
+                        <li><a href="https://hd.fmoviesto.site/fmovie">fmovie</a></li>
+                        <li><a href="https://hd.fmoviesto.site/f-movies">f movie</a></li>
+                        <li><a href="https://hd.fmoviesto.site/ffmovies">ffmovies</a></li>
+                        <li><a href="https://hd.fmoviesto.site/fmoviesto">fmovie.to</a></li>
+                        <li><a href="https://hd.fmoviesto.site/fmoviescc">fmovies.cc</a></li>
+                        <li><a href="https://hd.fmoviesto.site/fmoviestocc">fmoviesto.cc</a></li>
+                    </div>
+                    <div class="link-b p-2">
+                        <li><a href="/HTML/contact.html">Contact us</a></li>
+                        <li><a href="https://hd.fmoviesto.site/terms">Terms of Service</a></li>
+                        
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+</html>
+<script src="/Js/fmp.js"></script>

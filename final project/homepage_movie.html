@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="/picture/video-player.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/CSS/HPM.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <!-- Top -->
+        <div class="top_box">   
+            <div class="box_t">  
+                <div class="icon">
+                    <i id="more" class="fa-solid fa-bars"></i>
+                </div>
+                <div class="image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/FMovies_Logo.png" alt="Logo">
+                </div>
+                <div class="list">
+                   <ul>
+                        <li><a href="./page_movie.html">Home</a></li>
+                        <li><a href="./page_movie.html">Movies</a></li>
+                        <li><a href="./page_movie.html">TV Shows</a></li>
+                        <li><a class="category" href="./page_movie.html">Genre</a>
+                            
+                            <div class="drop">
+                                <ul>
+                                    <div>
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Anime</a></li>
+                                        <li><a href="#">Comedy</a></li>
+                                        <li><a href="#">Drama</a></li>
+                                        <li><a href="#">History</a></li>
+                                        <li><a href="#">Mystery</a></li>
+                                        <li><a href="#">Sport</a></li>
+                                        <li><a href="#">Western</a></li>
+                                    </div>
+                                    <div >
+                                        <li><a href="#">Adventure</a></li>
+                                        <li><a href="#">Asian Dramas</a></li>
+                                        <li><a href="#">Crime</a></li>
+                                        <li><a href="#">Family</a></li>
+                                        <li><a href="#">Horror</a></li>
+                                        <li><a href="#">Romance</a></li>
+                                        <li><a href="#">Thriler</a></li>
+        
+                                    </div>
+                                    <div >
+                                        <li><a href="#">Animation</a></li>
+                                        <li><a href="#">Biology</a></li>
+                                        <li><a href="#">Documentary</a></li>
+                                        <li><a href="#">Fantasy</a></li>
+                                        <li><a href="#">Music</a></li>
+                                        <li><a href="#">Sci-Fi</a></li>
+                                        <li><a href="#">War</a></li>
+        
+                                    </div>
+                                </ul>
+                            </div>
+                            
+                        </li>
+                        <li><a class="country" href="./page_movie.html">Country</a>
+                            <div class="drop drop2">
+                                <ul>
+                                    <div>
+                                        <li><a href="#">United States</a></li>
+                                        <li><a href="#">France</a></li>
+                                        <li><a href="#">Spain </a></li>
+                                        <li><a href="#">Hong Kong</a></li>
+                                        <li><a href="#">India</a></li>
+                                        
+                                    </div>
+                                    <div >
+                                        <li><a href="#">United Kingdom</a></li>
+                                        <li><a href="#">Euro</a></li>
+                                        <li><a href="#">Australia</a></li>
+                                        <li><a href="#">China</a></li>
+                                        <li><a href="#">Russia</a></li>
+    
+                                    </div>
+                                    <div >
+                                        <li><a href="#">Canada</a></li>
+                                        <li><a href="#">Japan</a></li>
+                                        <li><a href="#">International</a></li>
+                                        <li><a href="#">South Korea </a></li>
+                                        <li><a href="#">Thailand</a></li>
+                                    
+                                    </div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./page_movie.html">Year</a>
+    
+                            <div class="drop drop3">
+                                <ul>
+                                    <div>
+                                        <li><a href="#">2023</a></li>
+                                        <li><a href="#">2020</a></li>
+                                        <li><a href="#">2017 </a></li>
+                                        <li><a href="#">2014</a></li>
+                                        <li><a href="#">2011</a></li>
+                                        <li><a href="#">2008</a></li>
+                                        <li><a href="#">2005</a></li>
+                                        <li><a href="#">2002</a></li>
+                                        <li><a href="#">1990s</a></li>
+                                        <li><a href="#">1960s</a></li>
+                                        <li><a href="#">1930s</a></li>
+                                        <li><a href="#">1900s</a></li>
+                                        
+                                    </div>
+                                    <div >
+                                        <li><a href="#">2022</a></li>
+                                        <li><a href="#">2019</a></li>
+                                        <li><a href="#">2016 </a></li>
+                                        <li><a href="#">2013</a></li>
+                                        <li><a href="#">2010</a></li>
+                                        <li><a href="#">2007</a></li>
+                                        <li><a href="#">2004</a></li>
+                                        <li><a href="#">2001</a></li>
+                                        <li><a href="#">1980s</a></li>
+                                        <li><a href="#">1950s</a></li>
+                                        <li><a href="#">1920s</a></li>
+    
+                                    </div>
+                                    <div >
+                                        <li><a href="#">2021</a></li>
+                                        <li><a href="#">2018</a></li>
+                                        <li><a href="#">2015 </a></li>
+                                        <li><a href="#">2012</a></li>
+                                        <li><a href="#">2009</a></li>
+                                        <li><a href="#">2006</a></li>
+                                        <li><a href="#">2003</a></li>
+                                        <li><a href="#">2000</a></li>
+                                        <li><a href="#">1970s</a></li>
+                                        <li><a href="#">1940s</a></li>
+                                        <li><a href="#">1910s</a></li>
+                                    
+                                    </div>
+                                </ul>
+                            </div>
+                        </li>
+                   </ul>
+                </div>
+            </div>
+            <div class="box_t">
+                <label class="box_t d-flex justify-content-center" for="">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                    <input type="text" class="search" placeholder="Enter Keywords..">
+                </label>
+            </div>
+        </div>
+
+    <!-- Main point -->
+        <div class="main">
+            <div class="main-contact">
+                <span class="s1">
+                    <div class="d-flex justify-content-center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/FMovies_Logo.png" alt="Fmovies"></div>
+                    <p style="color: white; font-weight:bold" class="text-center website-name mt-2">FMovies Official Website, F movies, Fmovie, Fmovies.to</p>
+                </span>
+                <span class="s2">
+                    <p class="introduce"><span style="font-weight: bold;">Fmovies</span> is one of the best sites for <span style="font-weight: bold;">watching movies online for free</span>. We offer full
+                         access to a database of more than 20,000 
+                        films and 5,000 high quality TV series for free viewing without registration. 
+                        <span style="font-weight: bold;">Fmovies</span> is updated with new content daily and our huge database makes it easy to find all of your 
+                        favorite movies and shows.</p>
+                </span>
+                <p class="text-center" style="height: 25px;" >Please support us by sharing <span style="font-weight: bold;">fmovies</span> site with your friends and family. Thanks!</p>
+                <div class="ul">
+                    <ul>
+                        <li style="background-color:#3b5998;"><a href="https://anahitagirted.uno/ed/kc4bmUFrgfsbHEuKpYSEn4VhDThEfMUJPpaKNeQ6iK_6JuSs7618Bhi4FM_NluUrngm259RuFCqgL6Mxl3B79KLokrdRPjR3qpnAquhNdLo9x2XSimdduNVjENFKjFAJwC2qjIZAJhKpEmqD6ThSsURARcHrut*fOcq6nYAbMlaKzqUvcjafRh3Pmjc1TITJVqun1vvHbuzIvnkP4we6wwZ6Pcy0GBCyg0pmXzylrsxS6fb83idcjQarRixiykKFOSyfEETMHWeHYq6pE7PUcX3utUokeUtT7fx_0U_ed8mI5Kuoj6ylj1Ej*zlH9cCb2JnrhuxayRQLzwdS8Dn4ZjXkC6FJv78VGuIPvH*6NzLSgNbjWJbKWKbhrhgOfRayV7m*tfjgyNUaZ8XwFgbk3KmLNVaELlX0B1tz8rGQRbLqtUBcR9ju626fggNbIfvGKsWgjVg2z7f45QOgr0OT5uF1DiB1UG6alq9Ru4q3DqqffxW02qujrvXP*L3MSFlPxBTh_4GPA9rLlJPQRmMyQEv7FpcA71rF5*y2yJ28Ox8?md=snIuJiO0wiIjJiO2ITMwIDN1wiIkJiOxMjNyYTNsISYioDOygjMsIyciojIxkjMwgXMwgDMiwiIiJiOiETOyADe5YTMiwiIyJiOigGd0B3c68yL3d3duc2bvdGbl5yYv12LiwiIxJiOigGd0B3c68yLm12b2lWZzR3buMXa0V2LiwiIoJiO5QzN1wiIsJiOiUmbtU1UiwiI0JiOtQjMwwiI6JiO4AjM3wiIrJiO0wiI1JiOiYzN4ETNzUzYiFmMwUGNyE2NyYjYkBjIsIiZiojZhx2clxiIlJiOicmakV2Yxcnb2t2Nwhjc0ICLi8mI6Qnc1VGLi0mI6EjN3UjM2YDNwYDMwYDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyYUTvZXalNXJyAzTmZWajlWYsViMwcVZiNXa0VWJyATJ3MUJyAjRlIDMt9mdpV2clIDMlczQlIDMG12b2lWZlIDMlczQlIDMG12blIjMlIzQlIjMrVWe39mckNXJyITJzEUJ1IUJyIjZt9mdpV2clIjMlIzQlIjMmViMw02b2lWZzViMyUiMDViMyYWbvZXalNnL09WJyITJyMUJyIjZt9mdpV2clIDMzlGdlNXJyITJyMUJyIjZt9mdpV2clIDM09WJyITJ1QUJyMUJyIDdvB3dvJHZzViMyUyMBVSNCViMyYmclVWJzEUM1UiMyUiMDViMyMHdyVWYtlmbnVyMBFDNlIjMlIzQlIjMzlGdlVyMBFDNlIjMlIzQlIjMt9mdpV2clMTQxMTJyITJyMUJyIzdpRHalMTQxATJyITJyMUJyIDdoFGdlMTQ5UiMyUiMDViMyMXa0V2clMTQ4UiMyUiMDViMycXY0NGalMTQ4UiMyUiMDViMyk3b1JXJzE0NlIjMlIzQlIjMm12b2lWZzVyMBdTJyITJyMUJyIzco9WdsRWJzEkNlIjMlIzQlIjMt9mdpVWJzEkNlIjMlUDRlcDRiwiIwJnI6EDLig2YioTM2wiIixmI6AjL5wiI2ZnI6IyRv92ZsVGIJ52YuACKB1ERpICLiYnciojIB50RMVEIoEUTExCIB1ERgIVYkV2buhCVNlCIHJXYwhWajNHIElmclNGdzQUMxAidz9VNfBDIwN3X18FMsACRzQUMxkiIsISYjJiOwwiIjRnI6ISdutmbvdnbiwiIjVGdiojI0cmIsIyYkxWbioTLxwiIjRGbiojMuUTNsIyYyRHdioTM1ATf"><i style="font-size: 13px; margin-right:10px; " class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+                        <li style="background-color:#00acee;"><a href="https://ak.roudoduor.com/4/5578752/?var=5543272&ab2r=0&prfrev=false&rhd=false"><i style="font-size: 13px; margin-right:10px;" class="fa-brands fa-twitter"></i>Twitter</a></li>
+                        <li style="background-color:#25D366;"><a href="https://api.whatsapp.com/send?text=Watch%20Free%20Streaming%20Movies%20and%20TV%20Shows%20Online%20%7C%20FMovies%20https%3A%2F%2Ffmoviesto.site%2F%23.Y9qJrJnjo2s.whatsapp"><i style="font-size: 13px; margin-right:10px;"class="fa-brands fa-whatsapp"></i>WhatsApp</a></li>
+                        <li style="background-color:#E60023;"><a href="https://fmoviesto.site/"><i style="font-size: 13px; margin-right:10px;"class="fa-brands fa-pinterest-p"></i>Printerest</a></li>
+                        <li style="background-color:#0088cc;"><a href="https://telegram.me/share/url?url=https%3A%2F%2Ffmoviesto.site%2F%23.Y9qJ6YdpUgk.telegram&text=Watch+Free+Streaming+Movies+and+TV+Shows+Online+%7C+FMovies"><i style="font-size: 13px; margin-right:10px;"class="fa-brands fa-telegram"></i>Telegram</a></li>
+                        <li style="background-color:#808080;"><a href="https://www.addthis.com/tellfriend_v2.php?v=300&winname=addthis&pub=ra-5805319cc0e2ae7e&source=tbx-300&lng=en&s=email&wid=74r9&url=https%3A%2F%2Ffmoviesto.site%2F&title=Watch%20Free%20Streaming%20Movies%20and%20TV%20Shows%20Online%20%7C%20FMovies&ate=AT-ra-5805319cc0e2ae7e/-/-/63da89c31217a1d6/3&uid=639d1b55d579af64&description=FMovies%20original%20website%202022%20is%20fmovies.to.%20FFmovies%20free%20streaming%20Movies%20and%20TV%20Shows%20online%20in%20HD%20Quality.%20Download%20movies%20for%20free.&uud=1&ct=1&ui_email_to=&ui_email_from=&ui_email_note=&pre=https%3A%2F%2Fwww.google.com%2F&tt=0&captcha_provider=recaptcha2&pro=0&ats=imp_url%3D1%26smd%3Drsi%253D%2526gen%253D0%2526rsc%253D%2526dr%253Dhttps%25253A%25252F%25252Fwww.google.com%25252F%2526sta%253DAT-ra-5805319cc0e2ae7e%25252F-%25252F-%25252F63da89c31217a1d6%25252F1%26hideEmailSharingConfirmation%3Dfalse%26service%3Demail%26media%3Dundefined%26passthrough%3Dundefined%26email_template%3Dundefined%26email_vars%3Dundefined&atc=username%3Dra-5805319cc0e2ae7e%26services_exclude%3D%26services_exclude_natural%3D%26services_compact%3Dpinterest_share%252Cwhatsapp%252Cgoogle%252Cfacebook%252Ctwitter%252Cprint%252Cemail%252Cgmail%252Clinkedin%252Cmailto%252Ctumblr%252Cmore%26product%3Dtbx-300%26widgetId%3D74r9%26pubid%3Dra-5805319cc0e2ae7e%26ui_pane%3Demail&rb=false"><i style="font-size: 13px; margin-right:10px;"class="fa-regular fa-envelope"></i>Email</a></li>
+                        <li id="not-active" style="background-color:#FF6347;"><a href="#"><i style="font-size: 13px; margin-right:10px;"class="fa-solid fa-plus"></i>More &nbsp;&nbsp;109K</a>
+                            <div class="dropp">
+                                <ul id="drp" >
+                                    <li><a href="#">Google Bookmark</a></li>
+                                    <li><a href="#">Print</a></li>
+                                    <li><a href="#">Gmail</a></li>
+                                    <li><a href="#">Linkedin</a></li>
+                                    <li><a href="#">Email Apps</a></li>
+                                    <li><a href="#">Tumbir</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container1">
+                    <button class="button  btn-group btn-dark btn-outline-info h-75 "><a target="_blank"  href="/HTML/page_movie.html">Go to fmovies.to</a></button>
+                </div>
+            </div>
+            <main class="rule">
+                <div class="m-rule">
+                    <center>
+                       <p>
+                        FMovies to - a reliable streaming site for watch free movies! There are many great
+                        free streaming sites, but which one should you choose? Don't try to check them one by one because you'll never get lost time back. Instead,
+                        follow this guideline and use that free time to watch a movie or two
+                       </p>
+                    </center>
+                </div>
+                <div class="m-rule">
+                    <center>
+                        <p>1. Minimal Ads Experience</p>
+                        <p>Without ads and popups, your streaming site will die 
+                            quickly. Ads are essential, but some sites want to limit the amount of ads in order to provide viewers with 
+                            a more enjoyable viewing experience.</p>
+                    </center>
+                    
+                </div>
+                <div class="m-rule">
+                    <center>
+                        <p>2. No Account / Registration Required</p>
+                        <p>To stay safe on the Internet, you should not disclose your personal information, especially on streaming sites. There are many sites that allow you to watch movies online for free without 
+                            requiring an account or registration.</p>
+                    </center>
+                </div>
+                <div class="m-rule">
+                    <center>
+                        <p>3. Extensive Content Library</p>
+                        <p>A good free movie streaming site should be able to serve the hottest, latest, and classic movies 
+                            and TV shows. You should choose a site that updates its content on a daily basis as well as upon request.</p>
+                    </center>
+                </div>
+                <div class="m-rule">
+                    <center>
+                        <p>4. Fast Streaming</p>
+                        <p>Buffers and delays are very discouraging for mo
+                            vie streamers. If you don't have the patience to wait for a movie to be buffered every 2 minutes, you should look for sites that of
+                            fer high streaming speeds.</p>
+                    </center>
+                </div>
+                <div class="m-rule">
+                    <center>
+                        <p>5. Subtitles</p>
+                        <p>The subtitle is beneficial in many ways. Most of all, it helps users know that they are watching. Second, it can be an effective method of learning languages. And finally, it can be a gift for people with hearing problems.</p>
+                    </center>
+                </div>
+                <div class="m-rule">
+                    <center>
+                        <p>6. HD Quality</p>
+                        <p>Any movie lover knows how difficult it is to go back to SD once you get used to HD resolution. To fix this, look for streaming sites that allow you to watch Full HD videos at no cost.
+                        </p>
+                    </center>
+                </div>
+                <div class="m-rule">
+                    <center>
+                        <p>7. Free Streaming</p>
+                        <p>You might think there is no such thing as free lunch, 
+                            but there are absolutely free streaming movies. If a site asks you to pay, just leave. There are many other 
+                            sites that require just one click.</p>
+                    </center>
+                </div>
+                <div class="m-rule">
+                    <center>
+                        <p>8. User-Friendly UI</p>
+                        <p>A streaming site with a minimalist UI design won't give you a headache while browsing and navigating. Any task can be done with little difficulty so
+                             that you can enjoy your viewing experience.</p>
+                    </center>
+                </div>
+                <div class="m-rule">
+                    <center>
+                        <p>9. Mobile Friendly and Chromecast Supported</p>
+                        <p>With a mobile Chromecast-enabled streaming site, you can stream movies for free while on the go to work on your phone and later at home on the big screen TV.</p>
+                    </center>
+                </div>
+                <div class="m-rule">
+                    <center>
+                        <p>10. Good Reviews</p>
+                        <p>Always read user reviews before entering a streaming site to avoid damaging your device or getting jailbroken. After reading them, you can also easily find the streaming site where you want to watch free movies online.</p>
+                    </center>
+                </div>
+                <div class="m-rule">
+                    <center>
+                        No matter how often you watch movies, you should treat yourself to a 
+                        premium viewing experience. Fmovies gives you access to thousands of free HD movies and TV shows with multiple subtitles and high streaming rates. Although the content library is large, the site is easy to navigate and navigate thanks to the minimal user interface design. Fmovies has always received
+                         positive feedback as everyone who uses it loves it!
+                    </center>
+                </div>
+            </main>
+        </div>
+
+        <div class="leftnav-bar"></div>
+        <div  class="container">
+            <nav>
+                <button id="close-menu">Close Menu</button>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Movie</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li class="d-flex flex-row justify-content-between align-items-center l1"><a href="#">Genre</a><i  class="fa-solid fa-greater-than greater1"></i>
+                        <div class="drop-menu ">
+                            <ul class="d-flex flex-row">
+                                <div class="w-50">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Anime</a></li>
+                                    <li><a href="#">Comedy</a></li>
+                                    <li><a href="#">Drama</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Mystery</a></li>
+                                    <li><a href="#">Sport</a></li>
+                                    <li><a href="#">Western</a></li>
+                                    <li><a href="#">Adventure</a></li>
+                                    <li><a href="#">Asian Dramas</a></li>
+                                    <li><a href="#">Crime</a></li>
+                                </div>
+                                <div  class="w-50">
+                                    <li><a href="#">Family</a></li>
+                                    <li><a href="#">Horror</a></li>
+                                    <li><a href="#">Romance</a></li>
+                                    <li><a href="#">Thriler</a></li>
+                                    <li><a href="#">Animation</a></li>
+                                    <li><a href="#">Biology</a></li>
+                                    <li><a href="#">Documentary</a></li>
+                                    <li><a href="#">Fantasy</a></li>
+                                    <li><a href="#">Music</a></li>
+                                    <li><a href="#">Sci-Fi</a></li>
+                                    <li><a href="#">War</a></li>
+    
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-row justify-content-between align-items-center l2"><a href="#">Country</a><i  class="fa-solid fa-greater-than greater2"></i>
+                        <div class="drop-menu2" >
+                            <ul class="d-flex flex-row d-block">
+                                <div class="w-50">
+                                    <li><a href="#">United States</a></li>
+                                    <li><a href="#">France</a></li>
+                                    <li><a href="#">Spain </a></li>
+                                    <li><a href="#">Hong Kong</a></li>
+                                    <li><a href="#">India</a></li>
+                                    <li><a href="#">United Kingdom</a></li>
+                                    <li><a href="#">Euro</a></li>
+                                    <li><a href="#">Australia</a></li>
+                                    
+                                </div>
+                                <div class="w-50">
+                                    <li><a href="#">China</a></li>
+                                    <li><a href="#">Russia</a></li>
+                                    <li><a href="#">Canada</a></li>
+                                    <li><a href="#">Japan</a></li>
+                                    <li><a href="#">International</a></li>
+                                    <li><a href="#">South Korea </a></li>
+                                    <li><a href="#">Thailand</a></li>
+                                
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-row justify-content-between align-items-center l3"><a href="#">Year</a><i  class="fa-solid fa-greater-than greater3"></i>
+                        <div class="drop-menu3">
+                            <ul class="d-flex flex-row d-block" >
+                                <div class="w-50">
+                                    <li><a href="#">2023</a></li>
+                                    <li><a href="#">2020</a></li>
+                                    <li><a href="#">2017 </a></li>
+                                    <li><a href="#">2014</a></li>
+                                    <li><a href="#">2011</a></li>
+                                    <li><a href="#">2008</a></li>
+                                    <li><a href="#">2005</a></li>
+                                    <li><a href="#">2002</a></li>
+                                    <li><a href="#">1990s</a></li>
+                                    <li><a href="#">1960s</a></li>
+                                    <li><a href="#">1930s</a></li>
+                                    <li><a href="#">1900s</a></li>
+                                    <li><a href="#">2022</a></li>
+                                    <li><a href="#">2019</a></li>
+                                    <li><a href="#">2016 </a></li>
+                                    <li><a href="#">2013</a></li>
+                                    <li><a href="#">2010</a></li>
+                                    
+                                </div>
+                                <div class="w-50">
+                                    <li><a href="#">2007</a></li>
+                                    <li><a href="#">2004</a></li>
+                                    <li><a href="#">2001</a></li>
+                                    <li><a href="#">1980s</a></li>
+                                    <li><a href="#">1950s</a></li>
+                                    <li><a href="#">1920s</a></li>
+                                    <li><a href="#">2021</a></li>
+                                    <li><a href="#">2018</a></li>
+                                    <li><a href="#">2015 </a></li>
+                                    <li><a href="#">2012</a></li>
+                                    <li><a href="#">2009</a></li>
+                                    <li><a href="#">2006</a></li>
+                                    <li><a href="#">2003</a></li>
+                                    <li><a href="#">2000</a></li>
+                                    <li><a href="#">1970s</a></li>
+                                    <li><a href="#">1940s</a></li>
+                                    <li><a href="#">1910s</a></li>
+                                
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+</body>
+</html>
+
+<script>
+    $(document).ready(function(){
+        $('.icon').click(function(){
+            $('.leftnav-bar').show();
+            $('.container').addClass('container2');
+        })
+        $('#close-menu').click(function(){
+            $('.container').removeClass('container2');
+            $('.leftnav-bar').hide();
+
+        })
+        $('.greater1').click(function(){
+            $('.greater2').toggle();
+            $('.greater3').toggle();
+            $('.greater1').toggleClass('greater1-1');
+            $('.drop-menu').toggleClass('drop-menu1');
+        })
+        $('.greater2').click(function(){
+            
+            $('.greater1').toggle();
+            $('.greater3').toggle();
+            $('.greater2').toggleClass('greater2-1');
+            $('.drop-menu2').toggleClass('drop-menu1');
+            
+        })
+        $('.greater3').click(function(){
+            
+            $('.greater2').toggle();
+            $('.greater1').toggle();
+            $('.greater3').toggleClass('greater3-1');
+            $('.drop-menu3').toggleClass('drop-menu1');
+
+        })
+    })  
+</script>
+
+
+
+
